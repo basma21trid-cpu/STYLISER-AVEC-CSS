@@ -29,8 +29,7 @@ body{
 
 .main-content{
     background-color:  rgba(255, 192, 203, 0.3);
-    gap: 20px;
-     padding:20px;
+     padding:40px;
      font-size: 20px;
     color:rgb(156, 81, 93);
     text-align: center;

@@ -22,16 +22,20 @@ body{
     border-radius: 10px;
     margin: 0 20px;
 }
+a{
+    color:palevioletred;
+}
     .navigation a:hover {
     background-color: palevioletred;
     color: white;
     }
+   
     
  .main-content{
     display: grid; 
     grid-template-columns: 1fr 1fr;
     background-color:  rgba(255, 192, 203, 0.3);
-    gap:30px;
+    gap:50px;
      padding:30px;
      font-size: 20px;
     color:rgb(156, 81, 93);
@@ -40,20 +44,22 @@ body{
     box-shadow :0 4px 20px rgba(0,0,0,0.1);
     
  }
+ 
  .coordonnees, .formulaire {
     background: rgb(245, 215, 215);
     padding: 30px;
-    margin-bottom: 30px;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
  }
+ 
  h2 {
     color: palevioletred;
     text-decoration: underline;
 }
 label {
-    display: block;
-    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
     font-weight: bold;
     color: #555;
 }
