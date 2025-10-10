@@ -17,7 +17,7 @@ body{
 
 .navigation a {
     background-color: pink;
-     padding: 10px 15px;
+    padding: 10px 15px;
     color:palevioletred;
     border-radius: 10px;
     margin: 0 20px;
@@ -36,11 +36,11 @@ a{
     grid-template-columns: 1fr 1fr;
     background-color:  rgba(255, 192, 203, 0.3);
     gap:50px;
-     padding:30px;
-     font-size: 20px;
+    padding:30px;
+    font-size: 20px;
     color:rgb(156, 81, 93);
     text-align: center;
-     border-radius: 15px;
+    border-radius: 15px;
     box-shadow :0 4px 20px rgba(0,0,0,0.1);
     
  }
